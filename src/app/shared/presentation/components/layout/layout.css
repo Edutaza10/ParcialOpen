@@ -11,5 +11,11 @@
 .active { background: var(--mat-sys-secondary-container); }
 .content-shell { min-height: 100vh; display: flex; flex-direction: column; }
 .page-content { flex: 1; padding: 24px;background-color: beige }
+.spacer {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
+}
 
